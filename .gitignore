@@ -1,0 +1,136 @@
+# ==========================================
+# Python / Anaconda / Jupyter .gitignore
+# ==========================================
+
+# --------------------------
+# Python cache
+# --------------------------
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Python build files
+**/build/
+**/dist/
+**/*.egg-info/
+**/.eggs/
+**/*.egg
+
+# --------------------------
+# Virtual environments
+# --------------------------
+**/.venv/
+**/venv/
+**/env/
+**/.env/
+**/ENV/
+**/env.bak/
+**/venv.bak/
+
+# --------------------------
+# Conda / Anaconda
+# --------------------------
+**/.conda/
+**/conda-env/
+**/conda_env/
+**/.condarc
+
+# Conda environment files generated locally
+**/conda-meta/
+
+# --------------------------
+# Jupyter Notebook
+# --------------------------
+**/.ipynb_checkpoints/
+**/.jupyter/
+**/.ipython/
+
+# Jupyter runtime files
+**/jupyter_runtime/
+**/.local/share/jupyter/runtime/
+
+# --------------------------
+# Python caches / tools
+# --------------------------
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.coverage
+**/htmlcov/
+**/.cache/
+
+# --------------------------
+# Environment variables / Secrets
+# --------------------------
+**/.env
+**/.env.*
+!**/.env.example
+
+# --------------------------
+# IDE / Editor
+# --------------------------
+**/.vscode/
+**/.idea/
+**/*.code-workspace
+
+# --------------------------
+# OS files
+# --------------------------
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+
+# --------------------------
+# Temporary files
+# --------------------------
+**/*.tmp
+**/*.temp
+**/*.log
+**/*.bak
+**/*.swp
+**/*~
+
+# --------------------------
+# ML / Data Science artifacts
+# --------------------------
+**/*.joblib
+
+# Trained model files
+**/*.h5
+**/*.hdf5
+**/*.keras
+**/*.pt
+**/*.pth
+**/*.onnx
+
+# --------------------------
+# Kaggle credentials
+# NEVER commit API keys
+# --------------------------
+**/kaggle.json
+
+# --------------------------
+# Local datasets (optional)
+# --------------------------
+**/data/raw/
+**/datasets/
+**/dataset/
+
+# --------------------------
+# Generated archives
+# --------------------------
+**/*.zip
+**/*.tar
+**/*.tar.gz
+**/*.7z
+
+# --------------------------
+# Jupyter Notebook
+# --------------------------
+**/.ipynb_checkpoints/
+**/.virtual_documents/
+**/.jupyter/
+**/.ipython/
+
+# Jupyter / VS Code virtual documents
+**/.virtual_documents/
